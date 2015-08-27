@@ -29,8 +29,12 @@
 		<!-- DePaul Library Logo		-->	
 		<div class="site-logo">
 		<div class="container">
-			<img class="logo-short pull-left" src="<?php bloginfo('stylesheet_directory'); ?>/images/depaul-tree-logo-white.png" />
-			<span class="depaul-branding">University Library</span>
+			<a href="http://depaul.edu">
+				<img class="logo-short pull-left" src="<?php bloginfo('stylesheet_directory'); ?>/images/depaul-tree-logo-white.png" />
+			</a>
+			<a href="http://library.depaul.edu">
+				<span class="depaul-branding">University Library</span>
+			</a>
 			<div class="clearfix"></div>
 		</div>
 		</div>
