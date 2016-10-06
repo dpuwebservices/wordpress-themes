@@ -1,0 +1,36 @@
+/*
+Theme Name: Sparkling Child
+Theme URI: https://colorlib.com/wp/themes/sparkling/
+Description: Sparkling Child Theme
+Author: Christine McClure
+Author URI: http://dh.depaul.press
+Template: sparkling
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: header
+Text Domain: sparkling-child
+*/
+
+
+/*
+These are from the inline styles set in the parent theme
+*/
+
+.navbar.navbar-default, .navbar-default .navbar-nav .open .dropdown-menu > li > a {background-color: #ffffff;}.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus { color: #000000;}
+.btn-default, .label-default, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #DA4453;
+    border-color: #DA4453;
+    transition: background-color 0.3s linear;
+}    
+body, body.custom-background { background-color: #809fbf; }
+
+/*.navbar.navbar-default, .navbar-default .navbar-nav .open .dropdown-menu > li > a {background-color: #ffffff;}.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #000000;}
+
+body {background-color:#809fbf;}*/
+
+
+// CUSTOM CSS
