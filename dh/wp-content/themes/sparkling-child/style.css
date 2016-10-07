@@ -21,3 +21,9 @@ These are from the inline styles set in the parent theme
   
 body, body.custom-background { background-color: #809fbf; }
 
+#menu-main{
+    background-image: url('https://dh.depaul.press/wp-content/uploads/2016/10/depaul-neh-logos-500.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 0 0 50px 50px;
+}
