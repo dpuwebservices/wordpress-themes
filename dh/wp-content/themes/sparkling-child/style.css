@@ -27,3 +27,11 @@ body, body.custom-background { background-color: #809fbf; }
     background-position: bottom right;
     padding: 0 0 50px 50px;
 }
+
+#secondary .widget a {
+    color:#6C86A1;
+}
+
+#secondary .widget a:hover {
+    color:black;
+}
