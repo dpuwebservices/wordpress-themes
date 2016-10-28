@@ -23,7 +23,7 @@
 //Google Analytics
 //Set tracking to base report
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'XX-NNNNNNN-N']); // enter Google Analytics code here
+  _gaq.push(['_setAccount', 'UA-5169126-14']); 
 //Set Custom Variable to Type-Wordpress
 _gaq.push(['_setCustomVar',
       1,                   // This custom var is set to slot #1.  Required parameter.
@@ -41,7 +41,7 @@ _gaq.push(['_trackPageview']);
   })();
 
 try{
-var pageTracker = _gat._getTracker("UA-5169126-1");
+var pageTracker = _gat._getTracker("UA-5169126-14");
 pageTracker._setAllowLinker(true);
 pageTracker._trackPageview();
 } catch(err) {}
