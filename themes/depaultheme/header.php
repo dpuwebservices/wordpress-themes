@@ -23,7 +23,7 @@
 //Google Analytics
 //Set tracking to base report
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5169126-1']);
+  _gaq.push(['_setAccount', 'XX-NNNNNNN-N']); // enter Google Analytics code here
 //Set Custom Variable to Type-Wordpress
 _gaq.push(['_setCustomVar',
       1,                   // This custom var is set to slot #1.  Required parameter.
