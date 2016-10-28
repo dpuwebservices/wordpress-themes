@@ -41,7 +41,7 @@ _gaq.push(['_trackPageview']);
   })();
 
 try{
-var pageTracker = _gat._getTracker("UA-5169126-1");
+var pageTracker = _gat._getTracker("XX-NNNNNNN-N"); // enter Google Analytics code here
 pageTracker._setAllowLinker(true);
 pageTracker._trackPageview();
 } catch(err) {}
