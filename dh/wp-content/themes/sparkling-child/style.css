@@ -21,12 +21,6 @@ These are from the inline styles set in the parent theme
   
 body, body.custom-background { background-color: #809fbf; }
 
-#menu-menu{
-    background-image: url('http://dh.depaul.press/reading-chicago/wp-content/uploads/sites/2/2016/10/depaul-neh-logos-500.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    padding: 0 0 50px 50px;
-}
 
 #secondary .widget a {
     color:#6C86A1;
@@ -35,3 +29,8 @@ body, body.custom-background { background-color: #809fbf; }
 #secondary .widget a:hover {
     color:black;
 }
+
+/* Code Snipet for adding two images
+*/
+
+
