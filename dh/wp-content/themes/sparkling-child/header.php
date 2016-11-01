@@ -66,6 +66,10 @@
 
 						</div>
 						<?php sparkling_header_menu(); // main navigation ?>
+<div class="images" align="right" style ="margin-top:-100px;">
+<a href="#"><img src="http://localhost/wordpress/wp-content/uploads/2016/10/depaul-logos-500.png" /></a>
+<a href="#"><img src="http://localhost/wordpress/wp-content/uploads/2016/10/cropped-depaul-neh-logos-500.png" /></a>
+<div>
 					</div>
 				</div>
 			</div>
