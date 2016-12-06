@@ -24,6 +24,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="stylesheet" type="text/css" href="/dh/wp-content/themes/sparkling-child/style.css">
 
 <?php wp_head(); ?>
 
@@ -66,10 +67,20 @@
 
 						</div>
 						<?php sparkling_header_menu(); // main navigation ?>
-<div class="images" align="right" style ="margin-top:-100px;">
-<a href="#"><img src="http://localhost/wordpress/wp-content/uploads/2016/10/depaul-logos-500.png" /></a>
-<a href="#"><img src="http://localhost/wordpress/wp-content/uploads/2016/10/cropped-depaul-neh-logos-500.png" /></a>
-<div>
+						
+						<!-- Header images starts -->
+						<div class="images">
+							<div class="img1">
+								<a href="https://www.neh.gov/">
+									<img src="/dh/wp-content/uploads/sites/2/2016/10/depaul-neh-new-logos-500.png" align="right" style="margin-bottom: -10px; margin-top: -80px;" />
+								</a>
+							</div>
+							<div class="img2">					
+								<a href="https://www.depaul.edu/Pages/default.aspx">
+									<img src="/dh/wp-content/uploads/sites/2/2016/10/depaul-new-logos-500.png" align="right" style="margin-bottom: -10px; margin-top: -80px; margin-right: 220px;" />
+								</a>
+							</div>
+						<div>
 					</div>
 				</div>
 			</div>
@@ -87,4 +98,3 @@
             <?php $layout_class = get_layout_class(); ?>
 			<div class="row <?php echo $layout_class; ?>">
 				<div class="main-content-inner <?php echo sparkling_main_content_bootstrap_classes(); ?>">
-                                    
