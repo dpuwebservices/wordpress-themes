@@ -1,0 +1,2 @@
+[17-Mar-2017 11:56:56 CST6CDT] PHP Fatal error:  Call to undefined function language_attributes() in /home/depaul25/public_html/dh/wp-content/themes/construction-landing-page-child/header.php on line 14
+[17-Mar-2017 11:57:02 CST6CDT] PHP Fatal error:  Call to undefined function is_page_template() in /home/depaul25/public_html/dh/wp-content/themes/construction-landing-page-child/footer.php on line 23

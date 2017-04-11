@@ -1,0 +1,219 @@
+/*
+Theme Name: Construction Landing Page Child
+Theme URI: http://raratheme.com/wordpress-themes/construction-landing-page/
+Template: construction-landing-page
+Author: Gerard Panganiban
+Author URI: http://dh.depaul.press/
+Description: Construction Landing Page Theme
+Version: 1.0.7.1490887944
+Updated: 2017-03-30 09:32:24
+
+*/
+@import url('../construction-landing-page/style.css');
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+}
+a {
+    color: #5aa0d1;
+}
+a:hover, a:focus {
+    color: #a2d0f1;
+}
+.site {
+    background-color: #2b5b90;
+}
+.site-header {
+    padding-bottom: 24px;
+}
+.site-header .site-branding .text-logo {
+    font-size: 26px;
+    padding-top: 0;
+    padding-top: .3em;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-left: 22px;
+    margin: 0;
+}
+.site-header .site-branding .site-title {
+    font-size: 26px;
+    text-transform: none;
+}
+#content {
+    background-color: #2b5b90;
+    background-image: -moz-linear-gradient(top, #2b5b90, #2b4d74);
+    background-image: -webkit-linear-gradient(top, #2b5b90, #2b4d74);
+    background-image: -o-linear-gradient(top, #2b5b90, #2b4d74);
+    background-image: -ms-linear-gradient(top, #2b5b90, #2b4d74);
+    background-image: linear-gradient(to bottom, #2b5b90, #2b4d74);
+}
+#primary .post .entry-content h2, #primary .page .entry-content h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+#primary .post .entry-content h3, #primary .page .entry-content h3 {
+    font-weight: bold;
+    font-size: 28px;
+}
+#primary .post .entry-content h4, #primary .page .entry-content h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+#secondary .widget {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+#secondary .widget .widget-title {
+    background-color: #ebebeb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+}
+#secondary .widget ul {
+    padding-bottom: 5px;
+}
+#secondary .widget ul li a {
+    color: #2b5b90;
+}
+#secondary .widget ul li a:hover {
+    color: #5aa0d1;
+}
+.site-footer {
+    color: #565656;
+    background-color: #f0f1f3;
+    border-top: 1px solid #c7cdcd;
+}
+.site-footer a:hover {
+    text-decoration: underline !important;
+}
+.site-footer .site-info {
+    padding-bottom: 0;
+}
+.site-header .site-branding .DePaul-logo-link {
+    margin-right: 10px;
+    height: 45px;
+    width: 190px;
+    float: left;
+    border-right: 2px solid #fff;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+.main-navigation, #mobile-header {
+    display: none !important;
+}
+.site-footer .university-address {
+    padding-right: 3%;
+    width: 20%;
+    float: left;
+}
+.site-footer .university-address h5 {
+    font-size: 19px;
+}
+.site-footer .copyright, .site-footer .by {
+    display: none;
+}
+.site-footer ul.no-bullets {
+    padding-left: 0;
+    list-style: none;
+    margin: 0 0 1.5em;
+}
+.site-footer ul li a {
+    color: #565656 !important;
+    cursor: text;
+    padding-right: 16px;
+    background-image: url("images/icon-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-external-links {
+    width: 70%;
+    float: right;
+    padding: 12px 0;
+}
+.footer-external-links img {
+    display: block;
+    margin-right: .5em;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+.footer-external-links ul, .footer-external-links ul li {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-external-links ul li {
+    width: 33.33333%;
+    float: left;
+    padding: 0 3%;
+}
+.footer-links {
+    background-color: #fff;
+    line-height: 1.618 !important;
+    clear: both;
+    border-top: 1px solid #ddd;
+    padding: 24px 0;
+}
+.footer-links p {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.footer-links a {
+    color: #434a51 !important;
+}
+.site-footer a.social-blue {
+    background-color: #7197c2 !important;
+}
+.site-footer a:hover.social-blue {
+    background-color: #052c41 !important;
+}
+.site-footer .social-media-icons {
+    margin-top: -25px;
+    float: right;
+    padding: 0 3%;
+}
+.site-footer .social-media-icons a {
+    display: inline-block;
+    margin-right: 8px;
+    height: 44px;
+    cursor: pointer;
+    width: 44px;
+    background-size: 176px 44px !important;
+    text-indent: -99999px;
+}
+.site-footer .social-media-icons .fb {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+.site-footer .social-media-icons .twitter {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -44px;
+}
+.site-footer .social-media-icons .youtube {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -88px;
+}
+.site-footer .social-media-icons .pinterest {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -133px;
+}
+@media only screen and (max-width: 1199px) {
+.site-footer .university-address {
+    width: 100%;
+}
+}
