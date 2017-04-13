@@ -1,0 +1,36 @@
+/*
+Theme Name: Sparkling Child
+Theme URI: https://colorlib.com/wp/themes/sparkling/
+Description: Sparkling Child Theme
+Author: Christine McClure
+Author URI: http://dh.depaul.press
+Template: sparkling
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: header
+Text Domain: sparkling-child
+*/
+
+/* This should be enqueued instead of imported */
+@import '../sparkling/style.css';
+
+/*
+These are from the inline styles set in the parent theme
+*/
+  
+body, body.custom-background { background-color: #809fbf; }
+
+
+#secondary .widget a {
+    color:#6C86A1;
+}
+
+#secondary .widget a:hover {
+    color:black;
+}
+
+/* Code Snipet for adding two images
+*/
+
+
