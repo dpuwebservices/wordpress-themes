@@ -1,1 +1,4 @@
-Seems to be a legacy theme, possibly for news blog sites
+## Parent theme
+https://wordpress.org/themes/flat-bootstrap/
+
+
