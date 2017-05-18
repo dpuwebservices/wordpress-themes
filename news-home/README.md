@@ -16,10 +16,14 @@ Used for the library news home page: http://news.library.depaul.press/
 - Two "Display WordPress Posts (Jetpack)" widgets were added to Home Page sidebar section and added the Full Text and Faculty RSS links. 
 - After saving, the 'shortcodes' were copied. 
 Refer to screenshot: 
+
 ![Alt text](screenshots/widget-setting.png "Display WordPress Posts widget and shortcodes")
+
 - The widgets were moved to the Inactive Widgets section. 
 Refer to screenshot: 
+
 ![Alt text](screenshots/inactive-widget.png "Inactive Widgets section")
+
  
 **Adding the page:**
 - Go to Pages > All Pages.
@@ -28,6 +32,7 @@ Refer to screenshot:
 - The 'shortcodes' copied from the two widgets were added to the code.
 - In the Page Attributes settings, "Page - Full Width No Content Header" should be selected. 
 Refer to screenshot: 
+
 ![Alt text](screenshots/page-attributes.png "Page Attribute Setting")
 
 **Making the page appear on the home page:**
@@ -36,4 +41,5 @@ Refer to screenshot:
 - Front page should be the added page "DePaul News Website (DO NOT DELETE)"
 - Leave the Posts page blank or "-Select-"
 - Refer to screenshot for reference: 
+
 ![Alt text](screenshots/static-front-page-setting.png "Static Front Page Setting")
