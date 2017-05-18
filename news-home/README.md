@@ -4,12 +4,12 @@ This is a child of the flat bootstrap theme https://wordpress.org/themes/flat-bo
 Used for the library news home page: http://news.library.depaul.press/
 
 
-###### Wordpress Plugins used:
+## Wordpress Plugins used:
 1. amr shortcode any widget
 2. Jetpack by WordPress.com
 
 
-###### Here's how the home page was set up**
+## Here's how the home page was set up
 
 **Adding widget:**
 - Go to Appearance > Widgets. 
@@ -35,7 +35,7 @@ Refer to screenshot:
 
 ![Alt text](screenshots/page-attributes.png "Page Attribute Setting")
 
-**Making the page appear on the home page:**
+**Display the page to the home page:**
 - Go to Appearance > Customize > Static Front Page
 - Front page display should be "A static page"
 - Front page should be the added page "DePaul News Website (DO NOT DELETE)"
