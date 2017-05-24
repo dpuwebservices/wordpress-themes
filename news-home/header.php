@@ -8,26 +8,28 @@
  *
  * @package flat-bootstrap
  */
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans+Condensed:300,700,300italic" />
+?>
+    <!DOCTYPE html>
+    <html <?php language_attributes(); ?>>
 
-<?php wp_head(); ?>
-</head>
+    <head>
+        <meta charset="<?php bloginfo( 'charset' ); ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans+Condensed:300,700,300italic" />
 
-<body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+        <?php wp_head(); ?>
+    </head>
 
-	<?php do_action( 'before' ); ?>
-	
-	<header id="masthead" class="site-header" role="banner">
+    <body <?php body_class(); ?>>
+        <div id="page" class="hfeed site">
 
-		<?php
+            <?php do_action( 'before' ); ?>
+
+            <header id="masthead" class="site-header" role="banner">
+
+                <?php
 		/**
 		  * CUSTOM HEADER IMAGE DISPLAYS HERE FOR THIS THEME, BUT CHILD THEMES MAY DISPLAY
 		  * IT BELOW THE NAV BAR (VIA CONTENT-HEADER.PHP)
@@ -36,63 +38,82 @@
 		$custom_header_location = isset ( $xsbf_theme_options['custom_header_location'] ) ? $xsbf_theme_options['custom_header_location'] : 'content-header';
 		if ( $custom_header_location == 'header' ) :
 		?>
-			<div id="site-branding" class="site-branding">
-			
-			<?php
+                    <div id="site-branding" class="site-branding">
+
+                        <?php
 			// Get custom header image and determine its size
 			if ( get_header_image() ) {
 			?>
-				<div class="custom-header-image" style="background-image: url('<?php echo header_image() ?>'); width: <?php echo get_custom_header()->width; ?>px; height: <?php echo get_custom_header()->height ?>px;">
-				<div class="container">
-                <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-                <div class="site-branding-text">
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				</div>
-				</div></div>
-			<?php
+                            <div class="custom-header-image" style="background-image: url('<?php echo header_image() ?>'); width: <?php echo get_custom_header()->width; ?>px; height: <?php echo get_custom_header()->height ?>px;">
+                                <div class="container">
+                                    <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
+                                    <div class="site-branding-text">
+                                        <h1 class="site-title">
+                                            <a href="http://library.depaul.edu" rel="home">
+                                                <?php bloginfo( 'name' )?>
+                                            </a>
+                                        </h1>
+                                        <h2 class="site-description">
+                                            <?php bloginfo( 'description' ); ?>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php
 
 			// If no custom header, then just display the site title and tagline
 			} else {
 			?>
-				<div class="container">
+                                <div class="container">
 
-			<!-- start DePaul logo -->
-			
-			<a href="http://www.depaul.edu/Pages/default.aspx" class="DePaul-logo-link" rel="home" itemprop="url"><img width="165" height="45" src="/wp-content/themes/flat-bootstrap-newChild/images/DePaul-header-logo.png" alt="DePaul University logo" itemprop="logo"></a>
+                                    <!-- start DePaul logo -->
 
-			<!-- end DePaul logo -->
+                                    <a href="http://www.depaul.edu/Pages/default.aspx" class="DePaul-logo-link" rel="home" itemprop="url"><img width="165" height="45" src="/wp-content/themes/flat-bootstrap-newChild/images/DePaul-header-logo.png" alt="DePaul University logo" itemprop="logo"></a>
 
-                <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
-                <div class="site-branding-text">
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' )?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				</div>
-				</div>
-			<?php
+                                    <!-- end DePaul logo -->
+
+                                    <?php //if ( function_exists( 'jetpack_the_site_logo' ) ) jetpack_the_site_logo(); ?>
+                                    <div class="site-branding-text">
+                                        <h1 class="site-title">
+                                            <a href="http://library.depaul.edu" rel="home">
+                                                <?php bloginfo( 'name' )?>
+                                            </a>
+                                        </h1>
+                                        <h2 class="site-description">
+                                            <?php bloginfo( 'description' ); ?>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <?php
 			} //endif get_header_image()
 			?>
-			</div><!-- .site-branding -->
+                    </div>
+                    <!-- .site-branding -->
 
-		<?php			
+                    <?php			
 		endif; // $custom_header_location
-		?>			
+		?>
 
-		<?php
+                        <?php
 		/**
 		  * ALWAYS DISPLAY THE NAV BAR
 		  */
  		?>
 
-<?php
+                            <?php
 /*	
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 
-			<h2 class="menu-toggle screen-reader-text sr-only "><?php _e( 'Primary Menu', 'flat-bootstrap' ); ?></h2>
-			
-		<div class="skip-link"><a class="screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content', 'flat-bootstrap' ); ?></a></div>
+			<h2 class="menu-toggle screen-reader-text sr-only "><?php _e( 'Primary Menu', 'flat-bootstrap' ); ?>
+                                </h2>
 
-		<?php
+                                <div class="skip-link">
+                                    <a class="screen-reader-text sr-only" href="#content">
+                                        <?php _e( 'Skip to content', 'flat-bootstrap' ); ?>
+                                    </a>
+                                </div>
+
+                                <?php
 		// Collapsed navbar menu toggle
 		global $xsbf_theme_options;
 		$navbar = '<div class="navbar ' . $xsbf_theme_options['navbar_classes'] . '">'
@@ -129,12 +150,15 @@
 		echo apply_filters( 'xsbf_navbar', $navbar );
 		?>
 
-		</div><!-- .container -->
-		</div><!-- .navbar -->
-		</nav><!-- #site-navigation -->
-*/
-?>
-	</header><!-- #masthead -->
+        </div>
+        <!-- .container -->
+        </div>
+        <!-- .navbar -->
+        </nav>
+        <!-- #site-navigation -->
+        */ ?>
+        </header>
+        <!-- #masthead -->
 
-	<?php // Set up the content area (but don't put it in a container) ?>	
-	<div id="content" class="site-content">
+        <?php // Set up the content area (but don't put it in a container) ?>
+        <div id="content" class="site-content">

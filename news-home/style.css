@@ -73,7 +73,7 @@ a:focus {
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    padding-left: 22px;
+    padding-left: 16px;
     margin: 0;
     float: left;
 }
@@ -149,9 +149,9 @@ a:focus {
 }
 
 #sidebar-home img {
-    max-width: 90px;
+    max-width: 135px;
     float: left;
-    margin: 0 20px 0 0;
+    margin: 6px 20px 0 0;
 }
 
 #sidebar-home img.section-header-img {
