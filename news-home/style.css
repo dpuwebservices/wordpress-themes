@@ -146,7 +146,6 @@ a:focus {
     margin: 0 0 12px;
     padding: 0;
     width: 100%;
-    float: right;
     font-weight: 800;
     padding: 8px 0 0 0;
     line-height: 30px;
@@ -192,7 +191,7 @@ a:focus {
     color: #fff;
     padding: 6px 0;
     display: block;
-    width: 22%;
+    width: 36%;
     margin: 14px 0 0 0;
     text-align: center;
 }
@@ -208,8 +207,13 @@ a:focus {
 
 .jetpack-display-remote-posts p {
     border-bottom: 1px solid #cccccc;
-    padding: 0 0 26px !important;
+    padding: 0 0 26px 152px !important;
     text-align: justify;
+    background-image: url("https://news.library.depaul.press/wp-content/uploads/2017/05/img-placeholder.gif");
+    background-size: 135px auto;
+    background-repeat: no-repeat;
+    background-position: 0% 4%;
+    float: none;
 }
 
 .jetpack-display-remote-posts h4 a:hover {
@@ -394,6 +398,26 @@ a:focus {
 @media (min-width: 768px) {
     .sidebar-home {
         width: 750px;
+    }
+}
+
+@media (max-width: 500px) {
+    #sidebar-home>div>div>p {
+        margin: 0 0 8px !important;
+    }
+    #sidebar-home,
+    #sidebar-home>div>div .widget_jetpack_display_posts_widget {
+        padding: 0;
+    }
+    #sidebar-home img {
+        max-width: 100%;
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+    .jetpack-display-remote-posts p {
+        padding: 65% 0 26px 0 !important;
+        background-size: 100% auto;
     }
 }
 
