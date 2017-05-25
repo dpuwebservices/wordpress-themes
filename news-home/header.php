@@ -68,7 +68,7 @@
 
                                     <!-- start DePaul logo -->
 
-                                    <a href="http://www.depaul.edu/Pages/default.aspx" class="DePaul-logo-link" rel="home" itemprop="url"><img width="165" height="45" src="/wp-content/themes/flat-bootstrap-newChild/images/DePaul-header-logo.png" alt="DePaul University logo" itemprop="logo"></a>
+                                    <a href="http://www.depaul.edu/Pages/default.aspx" class="DePaul-logo-link" rel="home" itemprop="url"></a>
 
                                     <!-- end DePaul logo -->
 

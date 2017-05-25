@@ -64,6 +64,7 @@ a:focus {
     width: 190px;
     float: left;
     border-right: 2px solid #fff;
+    background: url("/wp-content/themes/flat-bootstrap-newChild/images/DePaul-header-logo.png") no-repeat;
 }
 
 .site-header .site-branding-text {
@@ -402,6 +403,13 @@ a:focus {
 }
 
 @media (max-width: 500px) {
+    .site-header .site-branding .DePaul-logo-link {
+        background: url(../../uploads/2017/05/DH-Logo.png) no-repeat;
+        background-size: 44px auto;
+        width: 45px;
+        border-right: 0px;
+        margin-right: 0px;
+    }
     #sidebar-home>div>div>p {
         margin: 0 0 8px !important;
     }
