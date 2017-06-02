@@ -32,5 +32,14 @@ body, body.custom-background { background-color: #809fbf; }
 
 /* Code Snipet for adding two images
 */
-
+@media (max-width: 740px) {
+    .site-navigation-inner .images .img1 img {
+        max-width: 38%;
+        margin: 0 !important; /* overwrite the inline style added by the theme */
+    }
+    .site-navigation-inner .images .img2 img {
+        max-width: 58%;
+        margin: 0 !important; /* overwrite the inline style added by the theme */
+    }
+}
 
