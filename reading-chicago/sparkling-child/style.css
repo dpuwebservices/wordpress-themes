@@ -34,11 +34,13 @@ body, body.custom-background { background-color: #809fbf; }
 */
 @media (max-width: 740px) {
     .site-navigation-inner .images .img1 img {
-        max-width: 38%;
+        max-width: 100%;
+        float:left;
         margin: 0 !important; /* overwrite the inline style added by the theme */
     }
     .site-navigation-inner .images .img2 img {
-        max-width: 58%;
+        max-width: 100%;
+        float:left;
         margin: 0 !important; /* overwrite the inline style added by the theme */
     }
 }
