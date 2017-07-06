@@ -12,13 +12,21 @@ Used for the SPCA home page: http://spca.depaul.press
 ## How the home page was set up
 
 Posting of 3 homepage articles
-![Alt text](screenshots/create-post.JPG "")
+
+<img align="left" width="100" height="100" src="screenshots/create-post.JPG">
+
 
 Adding menus
-![Alt text](screenshots/adding-menus.JPG "")
+
+<img align="left" width="100" height="100" src="screenshots/adding-menus.JPG">
 
 Adding links to the menus
-![Alt text](screenshots/adding-link-to-menus.JPG "")
+
+
+<img align="left" width="100" height="100" src="screenshots/adding-link-to-menus.JPG">
+
 
 The style of the fonts are configured in the theme settings.
-![Alt text](screenshots/typography-settings.JPG "")
+
+
+<img align="left" width="100" height="100" src="screenshots/typography-settings.JPG">
