@@ -1,7 +1,7 @@
 # Travel Diaries Pro Child Theme
 This is a child theme of Travel Diaries Pro https://raratheme.com/wordpress-themes/travel-diaries-pro/
 
-Used for the SPCA home page: http://spca.depaul.press
+The theme is being used for the SPCA home page: http://spca.depaul.press
 
 
 ## Wordpress Plugins used:
