@@ -9,11 +9,12 @@ Used for the SPCA home page: http://spca.depaul.press
 2. Jetpack by WordPress.com
 
 
-## How the home page was set up
+## How the home page is set up
 
 **Posting of 3 homepage articles**
 
 <img align="center" src="screenshots/create-post.JPG">
+
 
 
 
@@ -23,10 +24,12 @@ Used for the SPCA home page: http://spca.depaul.press
 
 
 
+
 **Adding links to the menus**
 
 
 <img align="center" src="screenshots/adding-link-to-menus.JPG">
+
 
 
 
