@@ -7,6 +7,9 @@ The theme is being used for the SPCA home page: http://spca.depaul.press
 ## Wordpress Plugins used:
 1. WP Custom Widget area
 2. Jetpack by WordPress.com
+3. Category to Pages WUD
+4. PDF Light Viewer Plugin
+5. WP Meta and Date Remover
 
 
 ## How the home page is set up
