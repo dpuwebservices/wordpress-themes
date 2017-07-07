@@ -3,52 +3,38 @@ Theme Name: Matata Child Theme
 Template: matata
 Author: JusThemes
 Description: Child theme for the Matata theme
-Version: 1.1.8
+Version: 1.2
 Updated: 2017-07-07 11:52:06
 
 */
 
-.top-bar {
-    background-color: #385f8a;
-    padding-bottom: 20px;
-    all: none;
-    background-image: -moz-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -webkit-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -o-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -ms-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: linear-gradient(to bottom, #385f8a, #2b4c72);
+@import url('../matata/style.css');
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+background: #385f8a;
 }
-.site-logo {
-    background-color: #385f8a;
-    padding-bottom: 20px;
-    all: none;
-    background-image: -moz-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -webkit-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -o-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: -ms-linear-gradient(top, #385f8a, #2b4c72);
-    background-image: linear-gradient(to bottom, #385f8a, #2b4c72);
+#masthead nav {
+	border-top: 4px solid #385f8a;
 }
-.logo-short {
-    margin-top: 25px;
-    padding-right: 25px;
-    padding-left: 10px;
-    all: none;
-    border-right: solid #fff 2px;
+a {
+	color: #385f8a;
 }
-.depaul-branding {
-    margin-top: 12px;
-    font-family: Helvetica, Arial, sans-serif;
-    vertical-align: top;
-    font-weight: bold;
-    font-size: 26px;
-    color: #fff;
-    padding-left: 20px;
-    float: left;
+.main-navigation li:hover > a,
+.main-navigation li.focus > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a,
+.posts-navigation .nav-previous a,
+.posts-navigation .nav-next a,a.more-link,
+#comments .reply a {
+	background-color: #385f8a;
 }
-.top-websites {
-    font-weight: bold;
-    font-size: small;
-    text-align: right;
+.widget .widget-title {
+	border-bottom: 4px solid #385f8a;
 }
 
 /* Copied from customize CSS option */
