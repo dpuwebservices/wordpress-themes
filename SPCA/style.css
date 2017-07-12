@@ -5,8 +5,8 @@ Template: travel-diaries-pro
 Author: Wendall Sullivan with Rara Themes for main theme
 Author URI: https://www.raratheme.com
 Description: child theme of Travel Diaries Pro for Special Collections
-Version: 1.34
-Updated: 2017-07-06 11:51:19
+Version: 1.4
+Updated: 2017-07-12 13:17:40
 
 */
 @import url('../travel-diaries-pro/style.css');
@@ -66,3 +66,21 @@ p a.button, a.button {
 #guide,
 .footer-t .columns-4 #meta-3 h2 {display:none;}
 
+/* Remove meta from post */
+.entry-meta {
+display:none !important;
+}
+
+/* Remove meta from home page */
+.home .entry-meta { 
+display: none; 
+}
+/* WPTheme 2015 Metadata Removal */
+.entry-footer {
+display:none !important;
+}
+
+/* WPTheme 2015 Metadata Removal */
+.home .entry-footer { 
+display: none; 
+}

@@ -3,11 +3,10 @@ Theme Name: Matata Child Theme
 Template: matata
 Author: JusThemes
 Description: Child theme for the Matata theme
-Version: 1.2
-Updated: 2017-07-07 11:52:06
+Version: 1.3
+Updated: 2017-07-12 12:58:48
 
 */
-
 @import url('../matata/style.css');
 
 button,
@@ -118,3 +117,22 @@ a {
 	font-weight: bold;
 	font-size: small;
 	}
+
+/* Remove meta from post */
+.entry-meta {
+display:none !important;
+}
+
+/* Remove meta from home page */
+.home .entry-meta { 
+display: none; 
+}
+/* WPTheme 2015 Metadata Removal */
+.entry-footer {
+display:none !important;
+}
+
+/* WPTheme 2015 Metadata Removal */
+.home .entry-footer { 
+display: none; 
+}
