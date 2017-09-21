@@ -1,0 +1,229 @@
+/*
+Theme Name: Glimpses of the Great War - Child Theme
+Template: matata
+Author: JusThemes
+Description: Child theme for the Matata theme
+Version: 1.803
+Updated: 2017-09-19 09:51:03
+*/
+@import url('../matata/style.css');
+@import url('../matata-child-theme-0102/style.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans+Condensed:300,700,300italic');
+
+body {font-family: 'Roboto', sans-serif;}
+p {font-size: 1.1em;}
+h1,
+.site-title a {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: -1px;
+	color: #fff;
+}
+.entry-header h1 {color: #000;}
+.site-title {
+    font-size: 2.2em;
+    line-height: 1;
+    margin: -78px 0 30px 0;
+    background-color: rgba(91,73,27,0.6);
+    position: relative;
+    padding: 12px 0 12px 18px;
+}
+h2 {font-size: 1.3em;}
+
+.site-description {
+    font-size: 1.1em;
+    line-height: 22px;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 0;
+	margin-top: -16px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    margin-bottom: 14px;
+}
+
+.site-branding {
+    padding-bottom: 0;
+}
+.site-branding a img {width:100%;max-width:auto;}
+.top-websites {display:none;}
+
+#content {
+    padding-top: 10px;
+}
+
+.main-navigation {
+    width: 33%;
+}
+.main-navigation ul {
+    border-top: 7px solid #000;;
+    width: 92%;
+}
+.main-navigation li {
+    background-color: #249ccc;
+    width: 100%;
+    padding: 0;
+}
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+    background-color: #000;
+}
+
+.wp-caption .wp-caption-text {
+    font-weight: bold;
+    line-height: 16px;
+    font-size: 0.9em;
+}
+
+/* Footer */
+#colophon,
+.site-footer {
+	font-family: "Source Sans Pro", sans-serif;    
+	color: #565656;
+    background-color: #f0f1f3;
+    border-top: 1px solid #c7cdcd;
+	padding: 0;
+}
+.site-footer .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.site-footer a:hover {
+    text-decoration: underline !important;
+}
+.site-footer .site-info {
+    padding-bottom: 0;
+}
+.site-footer .university-address {
+    padding-right: 3%;
+    width: 27%;
+    float: left;
+}
+.site-footer .university-address h5 {
+    font-size: 19px;
+	font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+.site-footer .wordpress-links, .site-footer .by {
+    display: none;
+}
+.site-footer ul.no-bullets {
+    padding-left: 0;
+    list-style: none;
+    margin: 0 0 1.5em;
+	font-size: 16px;
+    line-height: 26px;
+}
+.site-footer ul li a {
+    color: #565656 !important;
+    cursor: text;
+    padding-right: 16px;
+    background-image: url("images/icon-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer-external-links {
+    width: 70%;
+    float: right;
+    padding: 12px 0;
+}
+.footer-external-links img {
+    display: block;
+    margin-right: .5em;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+.footer-external-links ul, .footer-external-links ul li {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-external-links ul li {
+    width: 33.33333%;
+    float: left;
+    padding: 0 3%;
+}
+.footer-links {
+    background-color: #fff;
+    line-height: 1.618 !important;
+    clear: both;
+    border-top: 1px solid #ddd;
+    padding: 14px 0;
+}
+.footer-links p {
+    padding-right: 25px;
+    padding-left: 25px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.footer-links a {
+    color: #434a51 !important;
+}
+.site-footer a.social-blue {
+    background-color: #7197c2 !important;
+}
+.site-footer a:hover.social-blue {
+    background-color: #052c41 !important;
+}
+.site-footer .social-media-icons {
+    margin-top: -25px;
+    float: right;
+    padding: 0 3%;
+}
+.site-footer .social-media-icons a {
+    display: inline-block;
+    margin-right: 8px;
+    height: 44px;
+    cursor: pointer;
+    width: 44px;
+    background-size: 176px 44px !important;
+    text-indent: -99999px;
+}
+.site-footer .social-media-icons .fb {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+.site-footer .social-media-icons .twitter {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -44px;
+}
+.site-footer .social-media-icons .youtube {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -88px;
+}
+.site-footer .social-media-icons .pinterest {
+    background-image: url("images/icons-social-media-sprites.png");
+    background-repeat: no-repeat;
+    background-position: -133px;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.menu-toggle {
+		width: 100%;
+    	padding: 0.8em 1em;
+    	border-radius: 8px;
+    	margin: 0 0 18px;
+	}
+	.menu-toggle i {
+    	float:right;
+	}
+	.main-navigation {
+    	width: 100%;
+	}
+	.main-navigation ul {
+    	width: 100%;
+	}	
+}
+@media only screen and (max-width: 1199px) {
+	.site-footer .university-address {
+    	width: 100%;
+	}
+}
+
+
