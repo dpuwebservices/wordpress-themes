@@ -32,7 +32,7 @@
 <div class="container">
 
 
-                <!-- start custom footer for dh.depaul.press website -->
+                <!-- start custom footer -->
                 <div class="university-address">
                     <h5>DePaul University Library</h5>
                     <ul class="no-bullets">

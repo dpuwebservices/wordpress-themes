@@ -33,16 +33,12 @@
 			<a class="depaul-branding" href="http://library.depaul.edu">
 				<span class="depaul-branding">University Library</span></a>
 				
-		<!--	<div class="top-menu">
+		      <!--<div class="top-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'secondary')); ?>
-			</div> 
-		-->
+			</div>-->
 
 
 		</div>
-
-           <p class="top-websites"><!-- <a class="topbrand" href="https://spca.depaul.press">Engage!</a> --> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.depaul.edu/special-collections/Pages/default.aspx">Special Collections Home</a></p>
-
 
 		<div class="site-branding">
 
