@@ -33,7 +33,7 @@
 			<a class="depaul-branding" href="http://library.depaul.edu">
 				<span class="depaul-branding">University Library</span></a>
 				
-		      <!--<div class="top-menu">
+		<!--<div class="top-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'secondary')); ?>
 			</div>-->
 
@@ -60,7 +60,7 @@
 
 			$description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?><a href="https://library.depaul.edu/special-collections/Pages/default.aspx"> DePaul University Special Collections and Archives </a>.</p>
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
