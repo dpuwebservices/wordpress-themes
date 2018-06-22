@@ -42,7 +42,7 @@ do_action( 'newslite_action_before_head' );?>
 	do_action( 'newslite_action_after_wp_head' );
 	?>
 	<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic|Open+Sans+Condensed:300,700,300italic" />
-
+	<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,500,700" />
 </head>
 
 <body <?php body_class(); ?>>

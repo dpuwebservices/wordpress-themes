@@ -131,13 +131,13 @@ if ( ! function_exists( 'newslite_footer' ) ) :
                     <ul class="no-bullets">
                         <li>
 							<a href="http://libguides.depaul.edu/GovernmentInformation">
-                                <div class="footer-logos"><img alt="Federal Depository Library Program" src="/wp-content/uploads/2018/04/fdlp_logo.png"> </div>
+                                <div class="footer-logos"><img alt="Federal Depository Library Program" src="/wp-content/uploads/sites/2/2018/06/fdlp_logo.png"> </div>
 							</a>
                         </li>
                         
                         <li>
 							<a href="http://chicagocollections.org/">
-                                <div class="footer-logos"><img alt="Chicago Collections Consortium" src="/wp-content/uploads/2018/02/logo-CC_member_badge_color.png"> </div>
+                                <div class="footer-logos"><img alt="Chicago Collections Consortium" src="/wp-content/uploads/sites/2/2018/06/logo-CC_member_badge_color.png"> </div>
 							</a>
                         </li>
 
@@ -150,9 +150,9 @@ if ( ! function_exists( 'newslite_footer' ) ) :
         <!-- footer site info -->
         <section id="colophon" class="site-footer" role="contentinfo">
             <div class="footer-links">
-                <p class="unit size5of5 small"><a href="http://www.depaul.edu/Pages/copyright.aspx">© 2001-2017</a> DePaul University | <a href="http://www.depaul.edu/Pages/disclaimer.aspx">Disclaimer</a> | <a href="http://www.depaul.edu/Pages/contact-us.aspx">Contact Us</a> | <a href="http://emergencyplan.depaul.edu/Pages/default.aspx">Emergency Plan</a> | <a href="http://www.depaul.edu/Pages/consumer-info.aspx">Consumer Information</a> | <a href="http://go.depaul.edu/privacy">Privacy Statement</a>
+                <p class="unit size5of5 small"><a href="http://www.depaul.edu/Pages/copyright.aspx">© 2001-2018</a> DePaul University | <a href="http://www.depaul.edu/Pages/disclaimer.aspx">Disclaimer</a> | <a href="http://www.depaul.edu/Pages/contact-us.aspx">Contact Us</a> | <a href="http://emergencyplan.depaul.edu/Pages/default.aspx">Emergency Plan</a> | <a href="http://www.depaul.edu/Pages/consumer-info.aspx">Consumer Information</a> | <a href="http://go.depaul.edu/privacy">Privacy Statement</a>
 				<span class="admin-quick-links">
-					<a href="http://news.library.depaul.press/full-text/wp-admin/">Site Admin</a> | <a href="http://news.library.depaul.press/full-text/feed/">RSS</a>
+					<a href="/wp-admin/">Site Admin</a> | <a href="/feed/">RSS</a>
 				</span>
 				</p>
 				

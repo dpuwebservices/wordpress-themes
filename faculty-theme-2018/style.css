@@ -1,16 +1,15 @@
 /*
-Theme Name: Faculty-Theme-2018
+CTC Separate Stylesheet
+Updated: 2018-06-21 20:42:34
+Theme Name: Faculty Theme 2018
 Theme URI: https://evisionthemes.com/product/newslite
 Template: newslite
 Author: Gerard Panganiban
-Author URI: https://news.library.depaul.press/full-text/
-Description: This is a customized theme for DePaul Library faculty news blog website.
-Version: 1.2.82.1526054459
-Updated: 2018-05-11 16:00:59
-
+Author URI: https://news.library.depaul.press/faculty/
+Description: This is a customized theme for DePaul University Library Faculty blog website.
+Version: 1.0.18
 */
 @import url('../newslite/style.css');
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,13 +19,9 @@ p {
 }
 .posted-on a, .date a, .cat-links a, .tags-links a, .author a, .comments-link a {
     margin-right: 6px;
-    color: #7da7d9;
+    color: #1e5b94;
 }
-.nav-next {
-    float: left !important;
-    text-align: left;
-    padding: 0 !important;
-}
+
 body.single .nav-links .nav-previous a:hover, body.single .nav-links .nav-next a:hover {
     background-color: #2f93cd;
     border: 1px solid #1e5b94;
@@ -43,7 +38,7 @@ body.single .nav-links .nav-previous a:hover, body.single .nav-links .nav-next a
     max-width: unset;
 }
 .button, button, html input[type="button"], input[type="button"], input[type="reset"], input[type="submit"], .button:visited, button:visited, html input[type="button"]:visited, input[type="button"]:visited, input[type="reset"]:visited, input[type="submit"]:visited {
-    background-color: #2f93cd;
+    background-color: #3b6fa9;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     -o-border-radius: 0;
@@ -90,12 +85,12 @@ span.notice-title:before {
 .site-header {
     margin-bottom: 50px;
     background-size: cover;
-    -moz-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.8);
-    -webkit-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.8);
-    -o-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.8);
-    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
     height: 230px;
-    background-image: url("../../../wp-content/uploads/2018/03/background-faculty-img-2.jpg?v=10");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/background-faculty-img.jpg");
     background-repeat: no-repeat;
     background-position: center 0%;
 }
@@ -112,9 +107,11 @@ span.notice-title:before {
 .site-header .wrapper-site-identity .site-title a {
     font-size: 40px;
     font-weight: 500;
+	color: #fff !important;
 }
 .site-header .wrapper-site-identity .site-description {
     font-size: 1.1em;
+	color: #fff !important;
 }
 .site-branding {
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.8);
@@ -143,6 +140,12 @@ span.notice-title:before {
 .main-navigation a, .main-navigation a:visited {
     padding-right: 0;
     padding-left: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+.main-navigation a:hover {
+    color: #7da7d9 !important;
 }
 .entry-title a {
     font-size: 1.10em;
@@ -176,6 +179,63 @@ h1.widget-title:after {
 .wrap-breadcrumb ul {
     padding-left: 0;
 }
+.nav-buttons.col-md-1 .search-holder .button-search {
+	padding-top: 6px;
+}
+.nav-next {
+    float: left !important;
+    text-align: left !important;
+    padding: 0 10px 0 0 !important;
+}
+.nav-previous {
+	float: right !important;
+    text-align: right !important;
+    padding: 0 0 0 10px !important;
+}
+.nav-next a:before {
+    content: "\f100";
+    font-family: fontAwesome;
+    padding-right: 10px;
+}
+.nav-previous a:after {
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-left: 10px;
+}
+.nav-next a:after {
+    content: "";
+    padding-left: 0;
+}
+.nav-previous a:before {
+    content: "";
+    padding-right: 0;
+}
+body.single .nav-links .nav-previous a, 
+body.single .nav-links .nav-next a {
+	color: #2f93cd;
+    border: 1px solid #ddd;
+    font-weight: 400;
+	background: #eeeeee;
+    background: -moz-linear-gradient(top,#ffffff 0%,#eeeeee 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffffff),color-stop(100%,#eeeeee));
+    background: -webkit-linear-gradient(top,#ffffff 0%,#eeeeee 100%);
+    background: -o-linear-gradient(top,#ffffff 0%,#eeeeee 100%);
+    background: -ms-linear-gradient(top,#ffffff 0%,#eeeeee 100%);
+    background: linear-gradient(to bottom,#ffffff 0%,#eeeeee 100%);
+	
+	-moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+body.single .nav-links .nav-previous a:hover, 
+body.single .nav-links .nav-next a:hover {
+    background-color: #2f93cd;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
 #top-search {
     background-color: unset;
     -moz-box-shadow: unset;
@@ -183,11 +243,18 @@ h1.widget-title:after {
     -o-box-shadow: unset;
     box-shadow: unset;
     right: 10px;
-    top: -3px;
+    top: -6px;
 }
 #top-search .search-form .search-submit, #top-search .search-form .search-field {
     height: 36px;
 }
+#top-search .search-form .search-submit {
+	background-color: #3b6fa9;
+}
+#top-search .search-form .search-field {border: 1px solid #3e7a96;}
+.search-holder .button-search i, 
+.search-holder .button-search i:visited {color: #fff;}
+
 div#page {
     margin-top: 0;
 }
@@ -195,18 +262,26 @@ div#page {
     width: 30%;
     text-align: center;
     background-color: #fff;
+	max-height: 250px;
 }
 .entry-content-stat {
     width: 70%;
     padding-right: 30px;
 }
 .entry-content.non-image .entry-content-stat {
-    padding-right: 5%;
-    padding-left: 32.3%;
+    padding-right: 5% !important;
+    padding-left: 32.3% !important;
     background-size: 245px auto;
-    background-image: url('../../../wp-content/uploads/2018/03/img-placeholder.jpg');
+    background-image: url('../../../wp-content/uploads/sites/3/2018/06/img-placeholder.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0%;
+}
+.alternate article.odd .entry-content-stat {
+    padding: 0 0 0 30px;
+}
+.alternate article.odd .image-full {
+    float: left;
+    text-align: center;
 }
 .entry-meta {
     font-size: 1.1em;
@@ -232,7 +307,9 @@ body.blog .content-start article, body.archive .content-start article, body.sear
 body .content-start article .entry-content {
     padding: 0;
 }
-body.blog .content-start article img {
+body.blog .cont
+ent-
+start article img {
     width: auto;
     vertical-align: top;
     max-width: 245px;
@@ -255,6 +332,11 @@ body.blog .content-start article:hover img {
     transition: unset;
     opacity: unset;
 }
+.main-navigation.sec-main-navigation ul>li.current_page_item:before {
+    display: none;
+    content: " ";
+}
+.main-navigation .current-menu-item>a:after {background-color: transparent;}
 .top-bar {
     background-color: #375d84;
     line-height: 30px;
@@ -271,7 +353,7 @@ body.blog .content-start article:hover img {
     background-color: transparent;
     height: 45px;
     border-right: 2px solid #fff;
-    background-image: url('../../../wp-content/uploads/2018/02/dpu-logo-short.png');
+    background-image: url('../../../wp-content/uploads/sites/3/2018/06/dpu-logo-short.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 0 0;
@@ -299,12 +381,25 @@ body.blog .content-start article:hover img {
 }
 .main-navigation li:first-child a {
     padding-left: 0;
+	color: #fff;
 }
 .main-navigation li:last-child a:after {
     content: "";
 }
 #masthead {
     position: relative;
+}
+#masthead .site-branding-background {
+	background-image: url('../../../wp-content/uploads/sites/3/2018/06/branding-bg-filler.png?v=1');
+	background-size: 178% 156px;
+    background-position: 38% 0;
+    height: 80px;
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    left: 0;
+    opacity: 0.5;
+	display:none;
 }
 .row .pad0r {
     width: 100%;
@@ -333,16 +428,19 @@ body.blog .content-start article:last-child {
     border-bottom: unset;
 }
 .entry-title a:hover {
-    color: #2f93cd;
+    color: #2f93cd !important;
     text-decoration: underline;
 }
 .entry-content-stat p:after {
     content: "...";
 }
 .posted-on a time {
-    color: #666 !important;
+    color: #666;
     font-weight: 400;
 }
+
+.page-inner-title .entry-header time {color: #666 !important;}
+
 .search-form .search-submit, .search-form .search-submit:visited, .read-more-text a {
     font-size: 16px;
     -moz-box-shadow: none;
@@ -358,6 +456,7 @@ body.blog .content-start article:last-child {
     border-radius: 0;
     padding: 12px 18px;
 }
+body.blog .content-start article:hover h2 a {color: #375d84 !important;}
 .widget .widget-title:after {
     display: none;
 }
@@ -385,10 +484,12 @@ aside#secondary .widget .widget-title {
 #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a:hover {
     text-decoration: none;
 }
-.nav-previous {
-    float: right !important;
-    text-align: right;
-    padding: 0 !important;
+footer.entry-footer {
+    background: #fff;
+    padding: 3px 10px;
+    border-top: 1px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
+    margin: 0 0 20px;
 }
 footer .contact-list aside {
     color: #fff;
@@ -488,7 +589,7 @@ section#depaul-footer .university-address ul li a {
     padding-right: 16px;
     cursor: text;
     color: #565656 !important;
-    background-image: url("../../../wp-content/uploads/2018/02/icon-mobile.png");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/icon-mobile.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -558,22 +659,22 @@ section#depaul-footer .social-media-icons a:last-child {
     margin-right: 0;
 }
 section#depaul-footer .social-media-icons .fb {
-    background-image: url("../../../wp-content/uploads/2018/02/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: 0;
 }
 section#depaul-footer .social-media-icons .twitter {
-    background-image: url("../../../wp-content/uploads/2018/02/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -44px;
 }
 section#depaul-footer .social-media-icons .youtube {
-    background-image: url("../../../wp-content/uploads/2018/02/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -88px;
 }
 section#depaul-footer .social-media-icons .pinterest {
-    background-image: url("../../../wp-content/uploads/2018/02/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/3/2018/06/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -133px;
 }
@@ -582,6 +683,7 @@ section#depaul-footer .social-media-icons .pinterest {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+	background: #2f93cd;
 }
 .evision-back-to-top:hover {
     background-color: #375d84;
@@ -594,199 +696,212 @@ section#depaul-footer .social-media-icons .pinterest {
     -o-border-radius: 0%;
     border-radius: 0%;
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-#primary, #secondary, body.home.blog #secondary {
-    width: 100%;
-}
-.entry-content.non-image .entry-content-stat {
-    padding-left: 30%;
-}
-.entry-content-stat {
-    float: left;
-}
-.post-image {
-    float: left;
-}
+
+
+@media screen and (max-width: 768px) {
+	.wrapper.wrap-nav {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#top-search {
+		width: 100%;
+		background-color: #fff;
+		position: absolute;
+		-moz-box-shadow: 0 0 12px #000;
+		-webkit-box-shadow: 0 0 12px #000;
+		-o-box-shadow: 0 0 12px #000;
+		box-shadow: 0 0 12px #000;
+		right: 0 !important;
+		top: 39px;
+	}
+	.wrapper {
+		padding: 0 5%;
+	}
+	.main-navigation a {
+		background-color: transparent;
+		padding: 0 !important;
+	}
+	.main-navigation li a::after {
+		padding-left: 0;
+		content: "";
+	}
+	.main-navigation li {
+		border-bottom: 1px solid #78879a;
+		padding: 10px 0;
+	}
+	.main-navigation li:first-child {
+		border-bottom: 1px solid #78879a;
+		padding: 14px 0;
+	}
+	.main-navigation li:last-child {
+		border-bottom: 0;
+	}
+	.date-social {
+		display: none;
+	}
+	#primary {
+		width: 100%;
+	}
+	body .post-image {
+		text-align: center;
+		background-color: #fff;
+		margin: 0 0 12px;
+	}
+	.post-image {
+		width: 100%;
+	}
+	.post-image img {
+		vertical-align: top;
+		max-width: 100%;
+		max-height: 300px;
+		object-fit: contain;
+	}
+	.entry-content.non-image .entry-content-stat {
+		background-size: 100% auto;
+		padding: 72% 0 0 !important;
+	}
+	#masthead .site-branding-background {
+		background-size: 178% 156px;
+		height: 100%;
+		background-position: 0 50px;
+	}
+	.site-header .wrapper-site-identity .site-branding {
+		text-align: center;
+	}
+	.entry-content-stat {
+		width: 100%;
+	}
+	.wrapper.wrap-footer {
+		padding: 0;
+	}
+	footer .contact-list aside {
+		width: 100% !important;
+	}
+	#subscribe-email input {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	.dpu-logo-short {
+		width: 48px;
+		background-color: transparent;
+		height: 40px;
+		border-right: none;
+		background-image: url('../../../wp-content/uploads/sites/3/2018/06/depaul-logo.png');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 0 0;
+		margin: 6px 0 0;
+	}
+	.dpu-banner-text {
+		padding-left: 8px;
+	}
+	.site-title-short {
+		display: inline !important;
+		line-height: 1 !important;
+	}
+	.site-title-long {
+		display: none;
+	}
+	#search-2 {display:inline-block;}
+	.nav-holder button {color: #fff;}
+	#primary {
+		width: 100%;
+		border: 0;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+	.entry-meta {
+		display: inline-block;
+		width: 100%;
+		margin: 18px 0;
+	}
+	.blog article.hentry .entry-title {
+		font-size: 35px;
+	}
+	span.posted-on {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.single .byline, .group-blog .byline {
+		width: 100%;
+	}
+	span.byline:before {
+    	content: "";
+	}
+	.entry-content-stat {
+		padding-right: 0;
+	}
+	.nav-previous, .nav-next {
+		padding: 0 !important;
+		width: 100%;
+	}
+	body aside#secondary {
+		width: 100%;
+	}
+	section#depaul-footer .social-media-icons {
+		margin-right: 0;
+		padding: 0;
+		width: 100%;
+	}
+	section#depaul-footer .site-info {
+		width: 100%;
+		text-align: center;
+		margin: 22px 0 8px 0px;
+	}
+	section#depaul-footer .university-address {
+		width: 100%;
+	}
+	footer .contact-list aside:last-child {
+		border-top: 1px dotted #999;
+    	padding: 32px 0 0 0;
+	}
+	.footer-external-links {
+		width: 100%;
+	}
+	.footer-external-links ul li {
+		width: 50%;
+	}
+	.site-footer {
+		padding: 10px;
+	}
+	.footer-links p span.admin-quick-links {
+		width: 100%;
+		margin: 12px 0;
+	}
+	.footer-external-links img {
+		text-align:center;
+		display: inline-block;
+	}
+	.entry-content.non-image .entry-content-stat {padding-left: 0;}
 }
 @media only screen and (max-width: 769px) and (orientation: portrait) {
-.site-header .wrapper-site-identity .site-branding {
-    text-align: left !important;
+	.site-header .wrapper-site-identity .site-branding {
+		text-align: left !important;
+	}
+	.row .pad0r {
+		margin: 12% 0 0;
+	}
+	.entry-content-stat {
+		float: right;
+	}
+	.post-image {
+		float: left;
+	}
+	body.blog .content-start article img {
+		max-width: -webkit-fill-available;
+	}
+	
 }
-.row .pad0r {
-    margin: 12% 0 0;
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	#primary, #secondary, body.home.blog #secondary {
+		width: 100%;
+	}
+	.entry-content.non-image .entry-content-stat {padding-left: 30%;}
+	.entry-content-stat {
+		float:left;
+	}
+	.post-image {float:left;}
 }
-.entry-content-stat {
-    float: right;
-}
-.post-image {
-    float: left;
-}
-body.blog .content-start article img {
-    max-width: -webkit-fill-available;
-}
-}
-@media screen and (max-width: 768px) {
-.wrapper.wrap-nav {
-    padding-right: 0;
-    padding-left: 0;
-}
-#top-search {
-    width: 100%;
-    background-color: #fff;
-    position: absolute;
-    -moz-box-shadow: 0 0 12px #000;
-    -webkit-box-shadow: 0 0 12px #000;
-    -o-box-shadow: 0 0 12px #000;
-    box-shadow: 0 0 12px #000;
-    right: 0 !important;
-    top: 39px;
-}
-.wrapper {
-    padding: 0 5%;
-}
-.main-navigation a {
-    background-color: transparent;
-    padding: 0 !important;
-}
-.main-navigation li a::after {
-    padding-left: 0;
-    content: "";
-}
-.main-navigation li {
-    border-bottom: 1px solid #78879a;
-    padding: 10px 0;
-}
-.main-navigation li:first-child {
-    border-bottom: 1px solid #78879a;
-    padding: 14px 0;
-}
-.main-navigation li:last-child {
-    border-bottom: 0;
-}
-.date-social {
-    display: none;
-}
-#primary {
-    width: 100%;
-}
-body .post-image {
-    text-align: center;
-    background-color: #fff;
-    margin: 0 0 12px;
-}
-.post-image {
-    width: 100%;
-}
-.post-image img {
-    vertical-align: top;
-    max-width: 100%;
-    max-height: 300px;
-    object-fit: contain;
-}
-.entry-content.non-image .entry-content-stat {
-    background-size: 100% auto;
-    padding: 72% 0 0;
-}
-#masthead .site-branding-background {
-    background-size: 178% 156px;
-    height: 100%;
-    background-position: 0 50px;
-}
-.site-header .wrapper-site-identity .site-branding {
-    text-align: center;
-}
-.entry-content-stat {
-    width: 100%;
-}
-.wrapper.wrap-footer {
-    padding: 0;
-}
-footer .contact-list aside {
-    width: 100% !important;
-}
-#subscribe-email input {
-    width: 100% !important;
-    margin-bottom: 10px;
-}
-}
-@media only screen and (max-width: 768px) {
-.dpu-logo-short {
-    width: 48px;
-    background-color: transparent;
-    height: 40px;
-    border-right: none;
-    background-image: url('../../../wp-content/uploads/2018/02/depaul-logo.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: 0 0;
-    margin: 6px 0 0;
-}
-.dpu-banner-text {
-    padding-left: 8px;
-}
-.site-title-short {
-    display: inline !important;
-    line-height: 1 !important;
-}
-.site-title-long {
-    display: none;
-}
-#search-2 {
-    display: inline-block;
-}
-.entry-meta {
-    width: 100%;
-    display: inline-block;
-    margin: 18px 0;
-}
-.blog article.hentry .entry-title {
-    font-size: 35px;
-}
-span.posted-on {
-    width: 100%;
-    margin-bottom: 0;
-}
-.single .byline, .group-blog .byline {
-    width: 100%;
-}
-span.byline:before {
-    content: "";
-}
-.entry-content-stat {
-    padding-right: 0;
-}
-section#depaul-footer .social-media-icons {
-    width: 100%;
-    margin-right: 0;
-    padding: 0;
-}
-section#depaul-footer .site-info {
-    width: 100%;
-    text-align: center;
-    margin: 22px 0 8px;
-}
-section#depaul-footer .university-address {
-    width: 100%;
-}
-footer .contact-list aside:last-child {
-    border-top: 1px dotted #999;
-    padding: 32px 0 0;
-}
-.footer-external-links {
-    width: 100%;
-}
-.footer-external-links ul li {
-    width: 50%;
-}
-.site-footer {
-    padding: 10px;
-}
-.footer-links p span.admin-quick-links {
-    width: 100%;
-    margin: 12px 0;
-}
-.footer-external-links img {
-    display: inline-block;
-    text-align: center;
-}
+@media screen and (min-width: 1199px) {
+	
 }
