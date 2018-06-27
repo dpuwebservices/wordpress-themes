@@ -5,7 +5,7 @@ Description: Flat Bootstrap Child Theme
 Author: Gerard Panganiban
 Author URI: http://news.library.depaul.press/
 Template: flat-bootstrap
-Version: 0.0.5
+Version: 0.0.25
 Text Domain:  flat-bootstrap-newChild
 */
 
@@ -22,18 +22,7 @@ body {
     background: #f7f7f7;
 }
 
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: bold;
     line-height: 1;
@@ -151,7 +140,11 @@ a:focus {
     padding: 8px 0 0 0;
     line-height: 30px;
 }
-
+#sidebar-home h4+a {
+	max-height: 150px;
+    overflow: hidden;
+    float: left;
+}
 #sidebar-home img {
     max-width: 135px;
     float: left;
@@ -186,18 +179,22 @@ a:focus {
 #sidebar-home p:last-child {
     border: 0;
 }
-
-#sidebar-home p a.read-more {
-    background: #5279a6;
+#sidebar-home div.read-more-text {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    padding: 24px 0 38px 152px;
+    margin: 0 0 24px;
+}
+#sidebar-home div a.read-more {
+	background: #5279a6;
     color: #fff;
-    padding: 6px 0;
-    display: block;
-    width: 36%;
+    padding: 8px 30px;
     margin: 14px 0 0 0;
     text-align: center;
 }
 
-#sidebar-home p a.read-more:hover {
+#sidebar-home div a.read-more:hover {
     background: #2b588b;
     text-decoration: none;
 }
@@ -207,16 +204,17 @@ a:focus {
 }
 
 .jetpack-display-remote-posts p {
-    border-bottom: 1px solid #cccccc;
-    padding: 0 0 26px 152px !important;
+    padding: 0 0 0 152px !important;
     text-align: justify;
-    background-image: url("../../uploads/2017/05/img-placeholder.gif");
+    /* background-image: url(../../uploads/2017/05/img-placeholder.gif);
     background-size: 135px auto;
     background-repeat: no-repeat;
-    background-position: 0% 4%;
+    background-position: 0% 4%; */
     float: none;
 }
-
+.jetpack-display-remote-posts p:after {
+    content: "...";
+}
 .jetpack-display-remote-posts h4 a:hover {
     color: #2b588b;
 }
@@ -391,9 +389,21 @@ a:focus {
     .read-more {
         width: 100%
     }
-    #sidebar-home p a.read-more {
-        width: 100% !important;
-    }
+	#sidebar-home h4+a {
+		max-height:300px;
+	}
+	.jetpack-display-remote-posts p {
+		background-image: unset;
+	}
+	#sidebar-home div.read-more-text {
+		padding: 8px 0 20px;
+	}
+	#sidebar-home div a.read-more {
+		margin: 0;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		display: inline-block;
+	}
 }
 
 @media (min-width: 768px) {
