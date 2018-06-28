@@ -1,18 +1,21 @@
 /*
-CTC Separate Stylesheet
-Updated: 2018-06-22 20:30:00
 Theme Name: Fulltext Theme 2018
 Theme URI: https://evisionthemes.com/product/newslite
 Template: newslite
 Author: Gerard Panganiban
 Author URI: https://news.library.depaul.press/full-text/
 Description: This is a customized theme for DePaul University Library Full Text blog website.
-Version: 1.0.39.1529699400
+Version: 1.0.28
+Updated: 2018-06-27 10:25:00
+
 */
 @import url('../newslite/style.css');
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+a, a:focus {
+    color: #2f93cd;
 }
 p {
     font-size: 15px;
@@ -91,7 +94,7 @@ span.notice-title:before {
     -o-box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
     box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4);
     height: 230px;
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/background-img.jpg");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/background-img.jpg");
     background-repeat: no-repeat;
     background-position: center 0%;
 }
@@ -267,10 +270,11 @@ div#page {
     padding-right: 5% !important;
     padding-left: 32.3% !important;
     background-size: 245px auto;
-    background-image: url('../../../wp-content/uploads/sites/2/2018/06/img-placeholder.jpg');
+    background-image: url('../../../wp-content/uploads/sites/2/2018/05/img-placeholder.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
+.entry-content a:hover {text-decoration: underline;}
 .alternate article.odd .entry-content-stat {
     padding: 0 0 0 30px;
 }
@@ -347,7 +351,7 @@ body.blog .content-start article:hover img {
     background-color: transparent;
     height: 45px;
     border-right: 2px solid #fff;
-    background-image: url('../../../wp-content/uploads/sites/2/2018/06/dpu-logo-short.png');
+    background-image: url('../../../wp-content/uploads/sites/2/2018/05/dpu-logo-short.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 0 0;
@@ -384,7 +388,7 @@ body.blog .content-start article:hover img {
     position: relative;
 }
 #masthead .site-branding-background {
-	background-image: url('../../../wp-content/uploads/sites/2/2018/06/branding-bg-filler.png?v=1');
+	background-image: url('../../../wp-content/uploads/sites/2/2018/05/branding-bg-filler.png?v=1');
 	background-size: 178% 156px;
     background-position: 38% 0;
     height: 80px;
@@ -583,7 +587,7 @@ section#depaul-footer .university-address ul li a {
     padding-right: 16px;
     cursor: text;
     color: #565656 !important;
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/icon-mobile.png");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/icon-mobile.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -653,22 +657,22 @@ section#depaul-footer .social-media-icons a:last-child {
     margin-right: 0;
 }
 section#depaul-footer .social-media-icons .fb {
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: 0;
 }
 section#depaul-footer .social-media-icons .twitter {
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -44px;
 }
 section#depaul-footer .social-media-icons .youtube {
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -88px;
 }
 section#depaul-footer .social-media-icons .pinterest {
-    background-image: url("../../../wp-content/uploads/sites/2/2018/06/icons-social-media-sprites.png");
+    background-image: url("../../../wp-content/uploads/sites/2/2018/05/icons-social-media-sprites.png");
     background-repeat: no-repeat;
     background-position: -133px;
 }
@@ -780,7 +784,7 @@ section#depaul-footer .social-media-icons .pinterest {
 		background-color: transparent;
 		height: 40px;
 		border-right: none;
-		background-image: url('../../../wp-content/uploads/sites/2/2018/06/depaul-logo.png');
+		background-image: url('../../../wp-content/uploads/sites/2/2018/05/depaul-logo.png');
 		background-repeat: no-repeat;
 		background-attachment: scroll;
 		background-position: 0 0;
