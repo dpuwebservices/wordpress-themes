@@ -5,7 +5,7 @@ Template: newslite
 Author: Gerard Panganiban
 Author URI: https://news.library.depaul.press/faculty/
 Description: This is a customized theme for DePaul University Library Faculty blog website.
-Version: 1.0.22
+Version: 1.0.33
 Updated: 2018-06-27 11:02:00
 
 */
@@ -14,7 +14,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a, a:focus {
-    color: #2f93cd;
+    color: #004EC2;
+}
+a:hover {
+    color: #2f93cd ;
+}
+blockquote {
+    border-left: 5px solid #ccc;
+}
+q, blockquote {
+    color: #575757;
 }
 p {
     font-size: 15px;
@@ -66,6 +75,7 @@ body.single .nav-links .nav-previous a:hover, body.single .nav-links .nav-next a
     padding-right: 0;
     padding-left: 0;
 }
+
 #primary {
     width: 75%;
     float: left;
@@ -215,7 +225,7 @@ h1.widget-title:after {
 }
 body.single .nav-links .nav-previous a, 
 body.single .nav-links .nav-next a {
-	color: #2f93cd;
+	color: #1e5b94;
     border: 1px solid #ddd;
     font-weight: 400;
 	background: #eeeeee;
@@ -282,7 +292,6 @@ div#page {
 .alternate article.odd .entry-content-stat {
     padding: 0 0 0 30px;
 }
-.entry-content a:hover {text-decoration: underline;}
 .alternate article.odd .image-full {
     float: left;
     text-align: center;

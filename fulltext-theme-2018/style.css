@@ -5,7 +5,7 @@ Template: newslite
 Author: Gerard Panganiban
 Author URI: https://news.library.depaul.press/full-text/
 Description: This is a customized theme for DePaul University Library Full Text blog website.
-Version: 1.0.28
+Version: 1.0.46
 Updated: 2018-06-27 10:25:00
 
 */
@@ -15,7 +15,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a, a:focus {
-    color: #2f93cd;
+    color: #004EC2;
+}
+a:hover {
+    color: #2f93cd ;
+}
+blockquote {
+    border-left: 5px solid #ccc;
+}
+q, blockquote {
+    color: #575757;
 }
 p {
     font-size: 15px;
@@ -23,7 +32,7 @@ p {
 }
 .posted-on a, .date a, .cat-links a, .tags-links a, .author a, .comments-link a {
     margin-right: 6px;
-    color: #3e7a96;
+    color: #2E5B70;
 }
 
 body.single .nav-links .nav-previous a:hover, body.single .nav-links .nav-next a:hover {
@@ -150,7 +159,7 @@ span.notice-title:before {
 }
 .entry-title a {
     font-size: 1.10em;
-    color: #3e7a96;
+    color: #1e5b94;
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: unset;
@@ -213,7 +222,7 @@ h1.widget-title:after {
 }
 body.single .nav-links .nav-previous a, 
 body.single .nav-links .nav-next a {
-	color: #2f93cd;
+	color: #2E5B70;
     border: 1px solid #ddd;
     font-weight: 400;
 	background: #eeeeee;
@@ -274,9 +283,8 @@ div#page {
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
-.entry-content a:hover {text-decoration: underline;}
 .alternate article.odd .entry-content-stat {
-    padding: 0 0 0 30px;
+    padding: 0 10px 0 20px;
 }
 .alternate article.odd .image-full {
     float: left;
@@ -426,7 +434,6 @@ body.blog .content-start article:last-child {
     border-bottom: unset;
 }
 .entry-title a:hover {
-    color: #375d84 !important;
     text-decoration: underline;
 }
 .entry-content-stat p:after {
