@@ -5,7 +5,7 @@ Template: newslite
 Author: Gerard Panganiban
 Author URI: https://news.library.depaul.press/faculty/
 Description: This is a customized theme for DePaul University Library Faculty blog website.
-Version: 1.0.33
+Version: 1.0.34
 Updated: 2018-06-27 11:02:00
 
 */
@@ -917,4 +917,10 @@ section#depaul-footer .social-media-icons .pinterest {
 }
 @media screen and (min-width: 1199px) {
 	
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+	.container,
+	footer #footer-top-container {max-width: 100%;}
 }
