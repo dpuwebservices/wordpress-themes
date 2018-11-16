@@ -7,7 +7,7 @@ Template: twentysixteen
 Author: Gerard Panganiban
 Author URI: https://pdt.library.depaul.press/
 Description: Theme for DPU Library Professional Development Committee
-Version: 1.19
+Version: 1.45
 */
 @import url('../twentysixteen/style.css');
 
@@ -58,15 +58,18 @@ background: #385f8a;
 }
 
 .site-branding .site-title a {
-  font-family: Open Sans Condensed;
+  	font-family: Open Sans Condensed;
     font-size: 32px;  
 	color: #fff;
+	line-height: 56px;
 }
 
 .site-description {
     color: #fff;
-	    font-family: Open Sans Condensed;
+	font-family: Open Sans Condensed;
     font-size: 19px;
+	line-height: 0px;
+    margin: 3px;
 }
 
 .wp-custom-logo .site-header-main {
@@ -85,6 +88,7 @@ background: #385f8a;
 .wp-custom-logo .site-title {
 	float: left;
 	margin-top: 8px;
+	display: contents;
 }
 
 body:not(.search-results) article:not(.type-page) .entry-content {
@@ -199,6 +203,7 @@ color: #2b5b90;
 .site-footer {
 	  background: #eee;
     padding-top: 30px;
+	padding-bottom: 0px;
 }
 .site-footer .site-title:after {
     content: "";
@@ -221,7 +226,32 @@ body.category #content .page-header {
 .site-admin-login {
 	float: right;
 }
-
+.site-main > article.sticky .entry-footer {
+	display:none;
+}
+span.sticky-post {
+	display:none;
+}
+body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+	display:none;
+}
+.category-uncategorized .entry-footer {
+	display:none !important;
+}
+#secondary ul li:last-child {
+	display:none;
+}
+div.wpcf7-mail-sent-ok {
+    position: absolute;
+    bottom: 28%;
+    right: 0;
+    background: #00ff00;
+    border: 0;
+    font-size: 1.2em;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
 
 @media screen and (max-width: 910px) {
 	.custom-logo-link {
@@ -235,6 +265,9 @@ body.category #content .page-header {
 	}
 	.site-description {
 		display: none;
+	}
+	.wp-custom-logo .site-title {
+		display:unset;
 	}
 	.main-navigation .primary-menu {
 		border: 0;
