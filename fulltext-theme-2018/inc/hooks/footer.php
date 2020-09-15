@@ -109,8 +109,8 @@ if ( ! function_exists( 'newslite_footer' ) ) :
         <div class="social-media-icons">
             <a class="fb social-blue" href="http://www.facebook.com/dpulibraries">Facebook</a>
             <a class="twitter social-blue" href="http://twitter.com/intent/follow?screen_name=dpulibrarian">Twitter</a>
-            <a class="youtube social-blue" href="http://www.youtube.com/user/DePaulLibraries">Youtube</a>
-            <a class="pinterest social-blue" href="http://www.pinterest.com/dpulibrarian/">Pinterest</a>
+            <a class="youtube social-blue" href="https://www.youtube.com/channel/UCnObPtOCoJD2Ga69FrRGGaw ">Youtube</a>
+            <!-- <a class="instagram social-blue" href=" https://www.instagram.com/depaul_library/">Instagram</a> -->
         </div>
 
 		<div class="site-info">
@@ -131,13 +131,13 @@ if ( ! function_exists( 'newslite_footer' ) ) :
                     <ul class="no-bullets">
                         <li>
 							<a href="http://libguides.depaul.edu/GovernmentInformation">
-                                <div class="footer-logos"><img alt="Federal Depository Library Program" src="/wp-content/uploads/sites/2/2018/06/fdlp_logo.png"> </div>
+                                <div class="footer-logos"><img alt="Federal Depository Library Program" src="/wp-content/uploads/sites/2/2018/05/fdlp_logo.png"> </div>
 							</a>
                         </li>
                         
                         <li>
 							<a href="http://chicagocollections.org/">
-                                <div class="footer-logos"><img alt="Chicago Collections Consortium" src="/wp-content/uploads/sites/2/2018/06/logo-CC_member_badge_color.png"> </div>
+                                <div class="footer-logos"><img alt="Chicago Collections Consortium" src="/wp-content/uploads/sites/2/2018/05/logo-CC_member_badge_color.png"> </div>
 							</a>
                         </li>
 
