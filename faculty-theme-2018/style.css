@@ -671,23 +671,24 @@ section#depaul-footer .social-media-icons a {
 section#depaul-footer .social-media-icons a:last-child {
     margin-right: 0;
 }
+
 section#depaul-footer .social-media-icons .fb {
-    background-image: url("../../../wp-content/uploads/sites/3/2018/05/icons-social-media-sprites.png");
+    background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
-    background-position: 0;
+    background-position: -4px;
 }
 section#depaul-footer .social-media-icons .twitter {
-    background-image: url("../../../wp-content/uploads/sites/3/2018/05/icons-social-media-sprites.png");
+    background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
     background-position: -44px;
 }
 section#depaul-footer .social-media-icons .youtube {
-    background-image: url("../../../wp-content/uploads/sites/3/2018/05/icons-social-media-sprites.png");
+    background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
     background-position: -88px;
 }
-section#depaul-footer .social-media-icons .pinterest {
-    background-image: url("../../../wp-content/uploads/sites/3/2018/05/icons-social-media-sprites.png");
+section#depaul-footer .social-media-icons .instagram {
+    background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
     background-position: -133px;
 }
