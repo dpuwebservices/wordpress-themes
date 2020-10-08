@@ -110,7 +110,7 @@ if ( ! function_exists( 'newslite_footer' ) ) :
             <a class="fb social-blue" href="http://www.facebook.com/dpulibraries">Facebook</a>
             <a class="twitter social-blue" href="http://twitter.com/intent/follow?screen_name=dpulibrarian">Twitter</a>
             <a class="youtube social-blue" href="https://www.youtube.com/channel/UCnObPtOCoJD2Ga69FrRGGaw ">Youtube</a>
-            <!-- <a class="instagram social-blue" href=" https://www.instagram.com/depaul_library/">Instagram</a> -->
+             <a class="instagram social-blue" href=" https://www.instagram.com/depaul_library/">Instagram</a>
         </div>
 
 		<div class="site-info">
