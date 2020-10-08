@@ -680,7 +680,7 @@ section#depaul-footer .social-media-icons .fb {
 section#depaul-footer .social-media-icons .twitter {
     background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
-    background-position: -45x;
+    background-position: -45px;
 }
 section#depaul-footer .social-media-icons .youtube {
     background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
@@ -690,7 +690,7 @@ section#depaul-footer .social-media-icons .youtube {
 section#depaul-footer .social-media-icons .instagram {
     background-image: url("https://news.library.depaul.press/faculty/wp-content/uploads/sites/3/2020/10/DPU-library-social-1.png");
     background-repeat: no-repeat;
-    background-position: -131px;
+    background-position: -132px;
 }
 .evision-back-to-top {
     -moz-transition: all 0.3s;
