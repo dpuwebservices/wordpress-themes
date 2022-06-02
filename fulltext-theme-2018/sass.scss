@@ -20,6 +20,7 @@ $oldBrightBlue2: #1e5b94;
 $oldLightBlue: #2f93cd;
 $oldGreyBlue: #2E5B70;
 $oldGreyBlue2: #375d84;
+$oldDarkBlue: #446a7e;
 
 @import url('../newslite/style.css');
 
@@ -540,13 +541,13 @@ footer .contact-list aside p {
 footer #footer-top-container {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #446a7e;
+    background-color: $dpuDarkBlue;
     max-width: unset;
-    background-image: -moz-linear-gradient(top, #446a7e, #2c4e60);
-    background-image: -webkit-linear-gradient(top, #446a7e, #2c4e60);
-    background-image: -o-linear-gradient(top, #446a7e, #2c4e60);
-    background-image: -ms-linear-gradient(top, #446a7e, #2c4e60);
-    background-image: linear-gradient(to bottom, #446a7e, #2c4e60);
+    background-image: -moz-linear-gradient(top, $dpuDarkBlue, #2c4e60);
+    background-image: -webkit-linear-gradient(top, $dpuDarkBlue, #2c4e60);
+    background-image: -o-linear-gradient(top, $dpuDarkBlue, #2c4e60);
+    background-image: -ms-linear-gradient(top, $dpuDarkBlue, #2c4e60);
+    background-image: linear-gradient(to bottom, $dpuDarkBlue, #2c4e60);
     margin: 0 auto;
 }
 footer #footer-top-container .container {
