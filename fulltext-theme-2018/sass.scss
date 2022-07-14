@@ -827,8 +827,14 @@ section#depaul-footer .social-media-icons .instagram {
     #primary-menu a {
         color: #000000;
         font-weight:500;
-        
+
        }
+
+    //    hide breadcrumb on home page
+       .home #breadcrumbs .breadcrumb_last {
+        display: none;
+      }
+
 	.entry-meta {
 		display: inline-block;
 		width: 100%;

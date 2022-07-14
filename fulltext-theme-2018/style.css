@@ -225,6 +225,10 @@ h1.widget-title:after {
   padding-left: 0;
 }
 
+.home #breadcrumbs .breadcrumb_last {
+  display: none;
+}
+
 .nav-buttons.col-md-1 .search-holder .button-search {
   padding-top: 6px;
 }
@@ -981,6 +985,7 @@ section#depaul-footer .social-media-icons .instagram {
     color: #000000;
     font-weight: 500;
   }
+
 
   .entry-meta {
     display: inline-block;
